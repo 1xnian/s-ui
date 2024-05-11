@@ -41,7 +41,7 @@ services:
 
 networks:
   s-ui:
-    driver: bridge
+    driver: host
 
 volumes:
   singbox:
